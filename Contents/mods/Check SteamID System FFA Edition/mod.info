@@ -1,0 +1,5 @@
+name=Check SteamID system: Free for all edition
+id=CSS_FFA
+description=A system that checks the steamid to see if it's on the list.
+modversion=1.0 FFA
+poster=poster.png

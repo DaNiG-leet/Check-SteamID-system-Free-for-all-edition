@@ -1,0 +1,32 @@
+version=1
+id=3220196801
+title=Check SteamID System
+description=When I was a technical administrator I had a task to identify players with SteamID from the blacklist. That's how this mod came about.
+description=
+description=This mod is intended for server owners. 
+description=I do not guarantee 100% performance of this system. My sample is too small to unequivocally state that it is a panacea for identifying SteamIDs of interest. However, I don't know any other simple solutions.
+description=I recommend you to make a fork of this system for integration into your server.
+description=
+description=Logs are written to the CheckSteamIDSystem file.
+description=When SteamID is detected, a notification is sent to the admin chat to everyone with access level higher than moderator.
+description= 
+description=[h3]How does it work?[/h3].
+description=To begin with, you need to enter all SteamIDs of interest into the right file.
+description=
+description=1. Go to the directory C:\Users\{Your user}\Zomboid\Lua and create a file bannedSteamIDs.ini.
+description=2. In it, write down all SteamIDs of interest and the reason why they are listed here.
+description=Example:
+description=[img]https://i.imgur.com/I3VqVAP.png[/img]
+description=3. Profit
+description=If you have done something wrong, you will see a corresponding message in the server console.
+description=
+description=Was the mod useful? Rate it.
+description=
+description=Join me in discord. Share your experience, suggest ideas, report bugs.
+description=[url=https://discord.gg/Z3T7Ks9rAD][img]https://i.imgur.com/UN9WU8Q.png[/img][/url]
+description=
+description=[img]https://i.imgur.com/4HonJNk.png[/img]
+description=
+description=[url=http://theindiestone.com/forums/index.php/topic/2530-mod-permissions/#entry36476][img]https://i.imgur.com/rDi8czV.png[/img][/url]
+tags=Build 41;Framework;Multiplayer
+visibility=private
